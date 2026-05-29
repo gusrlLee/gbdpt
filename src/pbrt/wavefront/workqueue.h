@@ -29,9 +29,9 @@
 #endif
 #endif  // PBRT_IS_WINDOWS
 
-#ifndef PBRT_USE_LEGACY_CUDA_ATOMICS
+//#ifndef PBRT_USE_LEGACY_CUDA_ATOMICS
 #include <cuda/atomic>
-#endif
+//#endif
 
 #endif  // __CUDACC__
 
